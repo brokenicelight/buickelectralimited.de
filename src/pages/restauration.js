@@ -1,5 +1,10 @@
-import React from "react";
+import React from 'react';
+import Layout from '../components/Layout';
 
 export default function restauration() {
-	return <div>restauration</div>;
+  return (
+    <Layout>
+      <div>restauration</div>
+    </Layout>
+  );
 }

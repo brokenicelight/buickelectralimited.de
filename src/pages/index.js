@@ -1,11 +1,15 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
-    <section>
-      <Navbar />
-      <div className="text-3xl font-bold underline hover:bg-slate-500">Hello world!</div>
-    </section>
+    <Layout>
+      <section>
+        <div className="text-xl font-bold underline hover:bg-blue-500">Hello world!</div>
+        <div className=" inline-block bg-red-600 py-2.5 px-4 rounded-3xl  mt-5 font-medium hover:bg-red-700 active:bg-red-800">
+          Hire Me!
+        </div>
+      </section>
+    </Layout>
   );
 }

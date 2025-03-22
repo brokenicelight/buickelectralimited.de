@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-no-repeat bg-gradient-to-br from-gray-800 from-0% via-gray-900 via-50% to-gray-950 to-100% text-white;
+  }
+  html,
+  body {
+    @apply min-h-full;
+  }
+  p {
+    @apply my-4 mx-auto leading-normal;
+  }
+}

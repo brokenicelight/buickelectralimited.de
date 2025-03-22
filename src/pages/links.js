@@ -1,5 +1,10 @@
-import React from "react";
+import React from 'react';
+import Layout from '../components/Layout';
 
 export default function links() {
-	return <div>links</div>;
+  return (
+    <Layout>
+      <div>links</div>
+    </Layout>
+  );
 }

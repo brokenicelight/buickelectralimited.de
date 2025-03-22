@@ -1,5 +1,10 @@
-import React from "react";
+import React from 'react';
+import Layout from '../components/Layout';
 
 export default function kontakt() {
-	return <div>kontakt</div>;
+  return (
+    <Layout>
+      <div>kontakt</div>
+    </Layout>
+  );
 }
